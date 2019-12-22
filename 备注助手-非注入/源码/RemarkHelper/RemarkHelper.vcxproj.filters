@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{f6586c33-242b-4913-8922-f725e1cd1889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{8bdff2d7-986c-4109-b9a7-026b7ba67660}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RemarkHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RemarkHelperDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="json\allocator.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\assertions.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_features.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\version.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_json\json_tool.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RemarkHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemarkHelperDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_json\json_reader.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_json\json_value.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_json\json_writer.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RemarkHelper.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\RemarkHelper.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="lib_json\json_valueiterator.inl">
+      <Filter>Json</Filter>
+    </None>
+    <None Include="config.json">
+      <Filter>data</Filter>
+    </None>
+    <None Include="remark.json">
+      <Filter>data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\RemarkHelper.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
