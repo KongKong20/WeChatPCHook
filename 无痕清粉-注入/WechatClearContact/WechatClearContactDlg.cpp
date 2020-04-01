@@ -361,7 +361,7 @@ void CWechatClearContactDlg::OnTimer(UINT_PTR nIDEvent)
 {
 	if (nIDEvent == 1)
 	{
-		for (size_t i = 6; i < contactList.size(); i++)
+		for (size_t i = 0; i < contactList.size(); i++)
 		{
 			if (0 == wcscmp(contactList[i].wcCheckResult, L"等待"))
 			{
