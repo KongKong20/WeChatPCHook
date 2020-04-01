@@ -185,10 +185,9 @@ void CWeChatContactsDlg::OnBnClickedButtonContacts()
 	HANDLE hProcess = OpenProcess(PROCESS_VM_READ, FALSE, processID);
 	if (hProcess == 0) return;
 
-	//[[[WeChatWin.dll + 0x1397A8C] + 0x24 + 0x68] + 0x4]
-	DWORD Address1 = moduleBaseAddress + 0x1397A8C;
+	DWORD Address1 = moduleBaseAddress + 0x161CF54;
 	DWORD Address2 = GetMemoryIntByAddress(hProcess, Address1);
-	DWORD Address3 = GetMemoryIntByAddress(hProcess, Address2 + 0x24 + 0x68);
+	DWORD Address3 = GetMemoryIntByAddress(hProcess, Address2 + 0x28 + 0x84);
 
 	vector<DWORD> nodeAddressList;
 	nodeAddressList.push_back(Address3);
