@@ -1,5 +1,6 @@
 # WeChatPCHook
 微信 电脑 机器人 基于HOOK  
+博客地址：https://www.cnblogs.com/wwgk/  
 开源不易，觉得还可以的话，麻烦给个Star支持下，会更有动力更新版本，添加功能~  
 # 交流
 二维码是新的：163419350  
