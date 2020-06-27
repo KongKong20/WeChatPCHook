@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLLSendMsgText", "DLLSendMsgText\DLLSendMsgText.vcxproj", "{B7EEFEF9-EAD3-47F8-B237-4AA3E2010D87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7EEFEF9-EAD3-47F8-B237-4AA3E2010D87}.Debug|x64.ActiveCfg = Debug|x64
+		{B7EEFEF9-EAD3-47F8-B237-4AA3E2010D87}.Debug|x64.Build.0 = Debug|x64
+		{B7EEFEF9-EAD3-47F8-B237-4AA3E2010D87}.Debug|x86.ActiveCfg = Debug|Win32
+		{B7EEFEF9-EAD3-47F8-B237-4AA3E2010D87}.Debug|x86.Build.0 = Debug|Win32
+		{B7EEFEF9-EAD3-47F8-B237-4AA3E2010D87}.Release|x64.ActiveCfg = Release|x64
+		{B7EEFEF9-EAD3-47F8-B237-4AA3E2010D87}.Release|x64.Build.0 = Release|x64
+		{B7EEFEF9-EAD3-47F8-B237-4AA3E2010D87}.Release|x86.ActiveCfg = Release|Win32
+		{B7EEFEF9-EAD3-47F8-B237-4AA3E2010D87}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DE86663-E7A3-43BC-98A1-67722638DDE7}
+	EndGlobalSection
+EndGlobal
