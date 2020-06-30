@@ -5,7 +5,6 @@
 
 # 交流
 QQ群：163419350  
-![交流群二维码](https://github.com/KongKong20/WeChatPCHook/blob/master/%E4%BA%A4%E6%B5%81%E7%BE%A4.jpg)  
 # 入门教程
 ![入门教程](https://github.com/KongKong20/WeChatPCHook/blob/master/%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B.png)  
 # 通讯录效果图  
