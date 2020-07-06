@@ -16,7 +16,7 @@ DWORD recievedHookAddress = dllBaseAddress + recievedHookOffset;
 DWORD coeverDataOffset = 0x14003C0;
 
 // 被覆盖的数据的内存地址
-DWORD coeverDataAddress = dllBaseAddress + recievedHookOffset;
+DWORD coeverDataAddress = dllBaseAddress + coeverDataOffset;
 
 // Hook下一个指令的地址
 DWORD recievedHookRetAddress = recievedHookAddress + 5;
